@@ -375,19 +375,22 @@ ul {
     color: white
 }
 
-
 /*Body navigation bar drop down 3*/
 .bodyNavigatinDrop3 {
-    margin-left: 254px;
-    margin-top: -18px
+    
+    margin-top: -17px;
+    margin-left: 256px;
 }
 
 .bodyNavigatinDropdown-content3{
     display: none;
     position: absolute;
-    background-image: linear-gradient(to right, #546472 , #3c444c);
-    box-shadow: 1px 0px 6px;
-    min-width: 120px;
+    background-color: #5f6f7e;
+    background-image: linear-gradient(to right, #546370 , #2a2f35);
+    box-shadow: -3px 3px 15px;
+    margin-left: -256px;
+    height: 480px;
+    width: 964px;
 }
 
 .bodyNavigatinDropBtn3 {
@@ -408,7 +411,7 @@ ul {
     display: block;
 }
 
-.bodyNavigatinDropdown-content3 a:hover {
+.bodyNavigatinDropdown-content a:hover {
     color: white;
 }
 
@@ -418,4 +421,169 @@ ul {
 
 .bodyNavigatinDrop3:hover .bodyNavigatinDropBtn3 {
     color: white
+}
+.heading{
+    color: #2cc4fc;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 28px;
+    padding-top: 16px;
+    text-shadow: 2px 1px 5px black;
+}
+.tdata{
+    color: white;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+    margin-left: 29px;
+    font-size: 13px;
+    font-family: monospace;
+}
+.vl {
+    border-left: 1px solid #302c2c;
+    height: 480px;
+    margin-left: 183px;
+    margin-top: -480px;
+  }
+  .v2 {
+    border-left: 1px solid #171515;
+    height: 480px;
+    margin-left: 768px;
+    margin-top: -480px;
+  }
+.heading2{
+    margin-top: -395px;
+    margin-left: 214px;
+    color: #2cc4fc;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-shadow: 2px 1px 5px black;
+}
+.subheading1{
+    margin-left: 240px;
+    color: white;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+    font-size: 13px;
+    font-family: monospace;
+}
+.tdata2{
+    margin-left: 259px;
+    margin-top: -5px;
+    color: white;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+    font-size: 13px;
+    font-family: monospace;
+}
+.subheading3{
+    color: white;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+    font-size: 13px;
+    font-family: monospace;
+    margin-left: 240px;
+    margin-top: 47px;
+}
+.tdata3{
+    margin-left: 259px;
+    margin-top: -5px;
+    color: white;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+    font-size: 13px;
+    font-family: monospace;
+}
+.subheading4{
+    color: white;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+    font-size: 13px;
+    font-family: monospace;
+    margin-left: 431px;
+    margin-top: -413px;
+    
+}
+.tdata4{
+    margin-left: 454px;
+    color: white;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+    font-size: 13px;
+    font-family: monospace;
+}
+.subheading5{
+    color: white;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+    font-size: 13px;
+    font-family: monospace;
+    margin-left: 431px;
+    
+    
+}
+.tdata5{
+    margin-left: 454px;
+    color: white;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+    font-size: 13px;
+    font-family: monospace;
+}
+.subheading6{
+    color: white;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+    font-size: 13px;
+    font-family: monospace;
+    margin-left: 607px;
+    margin-top: -422px;
+    
+    
+}
+.tdata6{
+    margin-left: 625px;
+    color: white;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+    font-size: 13px;
+    font-family: monospace;
+}
+.subheading7{
+    color: white;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+    font-size: 13px;
+    font-family: monospace;
+    margin-left: 607px;
+    margin-top: 38px;
+    
+    
+}
+.tdata7{
+    margin-left: 625px;
+    color: white;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+    font-size: 13px;
+    font-family: monospace;
+}
+.heading3{
+    margin-left: 786px;
+    margin-top: -444px;
+    color: #2cc4fc;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-shadow: 2px 1px 5px black;
+}
+.tdata8{
+    margin-left: 803px;
+    color: white;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+    font-size: 13px;
+    font-family: monospace;
+}
+.heading4{
+    margin-left: 786px;
+    color: #2cc4fc;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-shadow: 2px 1px 5px black;
+}
+.tdata9{
+    margin-left: 803px;
+    color: white;
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
+    font-size: 13px;
+    font-family: monospace;
 }
