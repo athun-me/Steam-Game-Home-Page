@@ -32,6 +32,7 @@ body {
 .navBar {
     margin-left: -60px;
 }
+
 /*header drop down and list */
 .dropdown {
 
@@ -75,8 +76,9 @@ body {
 }
 
 .dropdown:hover .dropbtn1 {
-    color: white
+    color: white;
 }
+
 /*header drop down and list   2 */
 .dropdown2 {
 
@@ -140,6 +142,7 @@ body {
 .navBtnright:hover {
     color: white;
 }
+
 /*navigation 2*/
 .navigation3 {
     float: right;
@@ -208,6 +211,7 @@ body {
     margin-top: -18px;
     font-size: 14px;
 }
+
 /*langua in the navigation2 drop down */
 .drop2 {
     width: 171px;
@@ -259,31 +263,39 @@ ul {
     text-transform: uppercase;
     display: block;
 }
+
 /*body css*/
-.body{
+.body {
     width: 100%;
     height: 7000px;
-    background-image: linear-gradient(to right, #1B2838 , #2A475E);
+    background-image: linear-gradient(to right, #1B2838, #2A475E);
 }
-.bodyNavigation1{
+
+.bodyNavigation1 {
     width: 100%;
-    
     padding-top: 5px;
 }
-.bodyNavigation2{
+
+.bodyNavigation2 {
     width: 963px;
     height: 34px;
-    background-image: linear-gradient(to right, #387cbc , #203c7c);
+    background-image: linear-gradient(to right, #387cbc, #203c7c);
     box-shadow: 0px 0px 3px;
     margin-left: 300px;
 }
-.bodyNavigatinDropBtn{
+
+.bodyNavigatinDropBtn {
     font-weight: bold;
     border: none;
-    background: transparent;
+    /*background: transparent;*/
     color: white;
-    margin-top: 8px;
-    margin-left: 6px
+    margin-left: 3px;
+    height: 34px;
+    width: 119px;
+}
+
+.bodyNavigation2 :hover.bodyNavigatinDropBtn {
+    background-image: linear-gradient(to right, #2A475E, #1B2838);
 }
 
 /*Body navigation bar drop down */
@@ -293,16 +305,17 @@ ul {
     margin-left: -3px;
 }
 
-.bodyNavigatinDropdown-content{
+.bodyNavigatinDropdown-content {
     display: none;
     position: absolute;
-    background-image: linear-gradient(to right, #546472 , #3c444c);
+    background-image: linear-gradient(to right, #546472, #3c444c);
     box-shadow: 1px 0px 6px;
     min-width: 120px;
 }
 
 .bodyNavigatinDropBtn {
     border: none;
+
     background: transparent;
     color: white;
     font-size: 13px;
@@ -330,22 +343,28 @@ ul {
     color: white
 }
 
+.bodyNavigation2 :hover.bodyNavigatinDropBtn2 {
+    background-image: linear-gradient(to right, #2A475E, #1B2838);
+}
+
 /*Body navigation bar drop down 2*/
 .bodyNavigatinDrop2 {
-    
-    margin-top: -17px;
+
+    margin-top: -34px;
     margin-left: 114px;
 }
 
-.bodyNavigatinDropdown-content2{
+.bodyNavigatinDropdown-content2 {
     display: none;
     position: absolute;
-    background-image: linear-gradient(to right, #546472 , #3c444c);
+    background-image: linear-gradient(to right, #546472, #3c444c);
     box-shadow: 1px 0px 6px;
     min-width: 120px;
 }
 
 .bodyNavigatinDropBtn2 {
+    width: 146px;
+    height: 34px;
     border: none;
     background: transparent;
     color: white;
@@ -375,18 +394,22 @@ ul {
     color: white
 }
 
+.bodyNavigation2 :hover.bodyNavigatinDropBtn3 {
+    background-image: linear-gradient(to right, #2A475E, #1B2838);
+}
+
 /*Body navigation bar drop down 3*/
 .bodyNavigatinDrop3 {
-    
-    margin-top: -17px;
+
+    margin-top: -33px;
     margin-left: 256px;
 }
 
-.bodyNavigatinDropdown-content3{
+.bodyNavigatinDropdown-content3 {
     display: none;
     position: absolute;
     background-color: #5f6f7e;
-    background-image: linear-gradient(to right, #546370 , #2a2f35);
+    background-image: linear-gradient(to right, #546370, #2a2f35);
     box-shadow: -3px 3px 15px;
     margin-left: -256px;
     height: 480px;
@@ -399,6 +422,12 @@ ul {
     color: white;
     font-size: 13px;
     font-weight: bold;
+    height: 32px;
+    width: 151px;
+}
+
+.kunfi :hover {
+    background-color: black;
 }
 
 .bodyNavigatinDropdown-content3 a {
@@ -411,9 +440,7 @@ ul {
     display: block;
 }
 
-.bodyNavigatinDropdown-content a:hover {
-    color: white;
-}
+
 
 .bodyNavigatinDrop3:hover .bodyNavigatinDropdown-content3 {
     display: block;
@@ -422,7 +449,10 @@ ul {
 .bodyNavigatinDrop3:hover .bodyNavigatinDropBtn3 {
     color: white
 }
-.heading{
+
+
+/*---------------------------*/
+.heading {
     color: #2cc4fc;
     font-family: sans-serif;
     text-transform: uppercase;
@@ -431,26 +461,30 @@ ul {
     padding-top: 16px;
     text-shadow: 2px 1px 5px black;
 }
-.tdata{
+
+.tdata {
     color: white;
     text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
     margin-left: 29px;
     font-size: 13px;
     font-family: monospace;
 }
+
 .vl {
     border-left: 1px solid #302c2c;
     height: 480px;
     margin-left: 183px;
     margin-top: -480px;
-  }
-  .v2 {
+}
+
+.v2 {
     border-left: 1px solid #171515;
     height: 480px;
     margin-left: 768px;
     margin-top: -480px;
-  }
-.heading2{
+}
+
+.heading2 {
     margin-top: -395px;
     margin-left: 214px;
     color: #2cc4fc;
@@ -459,14 +493,16 @@ ul {
     font-size: 12px;
     text-shadow: 2px 1px 5px black;
 }
-.subheading1{
+
+.subheading1 {
     margin-left: 240px;
     color: white;
     text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
     font-size: 13px;
     font-family: monospace;
 }
-.tdata2{
+
+.tdata2 {
     margin-left: 259px;
     margin-top: -5px;
     color: white;
@@ -474,7 +510,8 @@ ul {
     font-size: 13px;
     font-family: monospace;
 }
-.subheading3{
+
+.subheading3 {
     color: white;
     text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
     font-size: 13px;
@@ -482,7 +519,8 @@ ul {
     margin-left: 240px;
     margin-top: 47px;
 }
-.tdata3{
+
+.tdata3 {
     margin-left: 259px;
     margin-top: -5px;
     color: white;
@@ -490,73 +528,82 @@ ul {
     font-size: 13px;
     font-family: monospace;
 }
-.subheading4{
+
+.subheading4 {
     color: white;
     text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
     font-size: 13px;
     font-family: monospace;
     margin-left: 431px;
     margin-top: -413px;
-    
+
 }
-.tdata4{
+
+.tdata4 {
     margin-left: 454px;
     color: white;
     text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
     font-size: 13px;
     font-family: monospace;
 }
-.subheading5{
+
+.subheading5 {
     color: white;
     text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
     font-size: 13px;
     font-family: monospace;
     margin-left: 431px;
-    
-    
+
+
 }
-.tdata5{
+
+.tdata5 {
     margin-left: 454px;
     color: white;
     text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
     font-size: 13px;
     font-family: monospace;
 }
-.subheading6{
+
+.subheading6 {
     color: white;
     text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
     font-size: 13px;
     font-family: monospace;
     margin-left: 607px;
     margin-top: -422px;
-    
-    
+
+
 }
-.tdata6{
+
+.tdata6 {
     margin-left: 625px;
     color: white;
     text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
     font-size: 13px;
     font-family: monospace;
 }
-.subheading7{
+
+.subheading7 {
     color: white;
     text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
     font-size: 13px;
     font-family: monospace;
     margin-left: 607px;
     margin-top: 38px;
-    
-    
+
+
 }
-.tdata7{
+
+.tdata7 {
     margin-left: 625px;
     color: white;
     text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
     font-size: 13px;
     font-family: monospace;
 }
-.heading3{
+
+.heading3 {
     margin-left: 786px;
     margin-top: -444px;
     color: #2cc4fc;
@@ -565,14 +612,16 @@ ul {
     font-size: 12px;
     text-shadow: 2px 1px 5px black;
 }
-.tdata8{
+
+.tdata8 {
     margin-left: 803px;
     color: white;
     text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
     font-size: 13px;
     font-family: monospace;
 }
-.heading4{
+
+.heading4 {
     margin-left: 786px;
     color: #2cc4fc;
     font-family: sans-serif;
@@ -580,10 +629,166 @@ ul {
     font-size: 12px;
     text-shadow: 2px 1px 5px black;
 }
-.tdata9{
+
+.tdata9 {
     margin-left: 803px;
     color: white;
     text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
     font-size: 13px;
     font-family: monospace;
+}
+
+/*4th btn*/
+.bodyNavigatinDrop4 {
+    margin-left: 423px;
+    margin-top: -32px;
+}
+
+.bodyNavigatinDropBtn4 {
+    width: 122px;
+    height: 33px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+/*5th btn*/
+.bodyNavigatinDrop5 {
+    margin-left: 537px;
+    margin-top: -32px;
+}
+
+.bodyNavigatinDropBtn5 {
+    width: 122px;
+    height: 33px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.bodyNavigation2 :hover.bodyNavigatinDropBtn4 {
+    background-image: linear-gradient(to right, #2A475E, #1B2838);
+}
+
+.bodyNavigation2 :hover.bodyNavigatinDropBtn5 {
+    background-image: linear-gradient(to right, #2A475E, #1B2838);
+}
+
+/*-----------------------*/
+.search {
+    margin-left: 789px;
+    margin-top: -31px;
+}
+
+.searchbtn {
+    width: 159px;
+    height: 15px;
+    border-radius: 3px;
+    background-color: #386484;
+    border: 2px solid #386484;
+    box-shadow: 1px 1px 2px grey;
+}
+
+.searchdiv {
+    margin-left: 146px;
+    margin-top: -17px;
+    width: 10px;
+    height: 10px
+}
+
+.searchpng {
+
+    width: 16px;
+    height: 16px;
+
+}
+
+.search :hover.searchbtn {
+    border: #2cc4fc;
+}
+
+.sideimagediv {
+    width: 220px;
+    height: 122px;
+    margin-top: -53px;
+    margin-left: 40px;
+}
+
+.sidepick {
+    width: 211px;
+    height: 116px;
+}
+
+.sideBar {
+    margin-left: 40px;
+    margin-top: -6px;
+    width: 208px;
+    height: 900px;
+}
+
+.text1 {
+    text-decoration: none;
+    color: #66c0f4;
+    width: fit-content;
+    /* color: #c7d5e0; */
+    font-size: 13px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+a:hover {
+    color: white;
+}
+
+.text2 {
+    text-decoration: none;
+    color: #66c0f4;
+    width: fit-content;
+    /* color: #c7d5e0; */
+    font-size: 13px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+}
+
+.img {
+    width: 18px;
+    margin-top: 6px;
+}
+
+.sidetextdiv {
+    margin-left: 24px;
+    margin-top: -24px;
+}
+
+.ptagside {
+    color: #c6d4df;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sidetextdiv2{
+    margin-left: -1px;
+    margin-top: 6px;
+}
+.floatingImg{
+    margin-left: 260px;
+    margin-top: -965px;
+    width: 1071px;
+    height: 426px;
+    
+}
+.featurAndRecomendation{
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 26px 25px -17px;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    padding-top: 2px;
 }
