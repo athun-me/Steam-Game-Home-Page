@@ -795,6 +795,8 @@ a:hover {
 
 /*image slider style*/
 .box{
+     overflow: hidden;
+    box-shadow: 0px 0px 7px 4px;
     margin-left: 25px;
     margin-top: 17px;
     width: 947px;
@@ -1003,8 +1005,143 @@ a:hover {
 
 .text-upper{
     position: relative;
-    top: -644px;
+    top: -608px;
+    opacity: 45%;
     left: 634px;
-    font-size: 15px;
+    font-size: 21px;
     color: white;
+}
+.text-bottum{
+    position: relative;
+    top: -442px;
+    left: 634px;
+    opacity: 45%;
+    font-size: 21px;
+    color: white;
+}
+.down-btn{
+    position: relative;
+    left: 633px;
+    bottom: 462px;
+}
+.seller-btn{
+    width: 64px;
+    height: 21px;
+    border: none;
+    font-size: 9px;
+    font-weight: bold;
+    opacity: 87%;
+    color: white;
+    background-color: #40444c;
+    border-radius: 4px;
+}
+.windows-icon{
+    position: relative;
+    left: 919px;
+    top: -434px;
+    opacity: 65%;
+    color: white;
+}
+.container{
+   
+    
+}
+
+.block-2{
+    width: 1015px;
+    height: 484px;
+   
+    position: relative;
+    left: 259px;
+    top: 352px;
+}
+.floating-img-2{
+    display: flex;
+    width: 950px;
+    height: 452px;
+    background-color: blue;
+    position: relative;
+    left: 25px;
+    top: 47px;
+}
+.special-offer-tag{
+    position: relative;
+    top: -387px;
+    left: 24px;
+}
+.brows-btn{
+    position: relative;
+    left: 848px;
+    top: -462 px;
+}
+.brows-btn-btn{
+    font-size: 12px;
+    width: 114px;
+    color: white;
+    border: solid 1px;
+    height: 20px;
+    border-color: white;
+    border-radius: 3px;
+    background: transparent;
+}
+.brows-btn-btn:hover{
+    outline: solid 1px white;
+}
+.img-block-3{
+    position: relative;
+    top: -32px;
+    width: 947px;
+    height: 383px;
+    margin-left: 26px;
+    margin-top: 60px;    
+    background-color: #ffffff;
+}
+.special-offer-div{
+    position: relative;
+    top: 24px;
+    left: 25px;
+    width: 122px;
+    height: 25px;
+}
+.special-offer-h{
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 10px;
+    letter-spacing: 0.03em;
+    font-weight: normal;
+    padding-top: 2px;
+}
+.img-x{
+    height: 307px;
+    width: 309px;
+   
+}
+.img-y{
+    height: 307px;
+    width: 309px;
+    margin-left: 5px;
+   
+}
+.img-z{
+    position: relative;
+    height: 147px;
+    width: 309px;
+    top: -160px;
+    margin-left: 5px;
+   
+}
+.img-a{
+    height: 147px;
+    position: relative;
+    top: -151px;
+    left: 636px;
+    width: 309px;
+}
+.div-x{
+    width: 10px;
+    height: 20px;
+    border-color: rebeccapurple;
 }
