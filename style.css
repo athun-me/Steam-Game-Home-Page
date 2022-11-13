@@ -11,7 +11,6 @@ body {
 
 .logo {
     width: 176px;
-    aspect-ratio: auto 176 / 44;
     height: 110px;
     margin-left: 277px;
 }
@@ -262,7 +261,7 @@ ul {
 /*body css*/
 .body {
     width: 100%;
-    height: 7000px;
+    height: 2400px;
     background-image: linear-gradient(to right, #1B2838, #2A475E);
 }
 
@@ -1424,4 +1423,155 @@ a:hover {
     position: absolute;
     top: 0px;
     height: 255px;
+}
+
+/*--------------------------------------------------------------------*/
+
+.section-4{
+    display: flex;
+    width: 942px;
+    height: 72px;
+    position: relative;
+    top: 482px;
+    left: 281px;
+}
+.sbox-1{
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 231px;
+    height: 73px;
+    background: linear-gradient(#0cbcff, #3074fc) 100%;
+
+}
+.sbox-2{
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    width: 231px;
+    height: 73px;
+    background: linear-gradient(#0cbcff, #3074fc) 100%;
+    
+}
+.sbox-3{
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    width: 231px;
+    height: 73px;
+    background: linear-gradient(#0cbcff, #3074fc) 100%;
+    
+}
+.sbox-4{
+    opacity: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    width: 231px;
+    height: 73px;
+    background: linear-gradient(#0cbcff, #3074fc) 100%;
+    
+}
+
+.section-4 a{
+    opacity: 80%;
+    font-family: "Motiva Sans", Sans-serif;
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.sbox-1:hover{
+    opacity: 100%;
+}
+.sbox-2:hover{
+    opacity: 100%;
+}
+.sbox-3:hover{
+    opacity: 100%;
+}
+.sbox-4:hover{
+    opacity: 100%;
+}
+.footer{
+    position: relative;
+    top: 588px;
+    left: 0px;
+    width: 1473px;
+    height: 212px;
+    background-color: black;
+}
+.footer-2{
+    
+    position: relative;
+    top: 587px;
+    left: 0px;
+    width: 1473px;
+    height: 185px;
+    background-color: #181c24;
+}
+.footer-span{
+    position: relative;
+    left: 574px;
+    top: 48px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+    font-weight: normal;
+    font-size: 24px;
+    color: #67c1f5;
+    text-align: center;
+}
+.footer-p{
+    position: relative;
+    top: 56px;
+    color: #8f98a0;
+    font-family: "Motiva Sans", Sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+.singn-in{
+    text-align: center;
+    width: 94px;
+    height: 38px;
+    color: white;
+    position: relative;
+    left: 700px;
+    top: 59px;
+    line-height: 30px;
+    background-color:green;
+    font-family: "Motiva Sans", sans-serif;
+    box-shadow: none;
+    border-radius:4px ;
+}
+.singn-in:hover{
+    background-color: #a0bc04;
+}
+.footer-p2{
+    color: #8f98a0;
+    position: relative;
+    left: 643px;
+    top: 51px;
+}
+.footer-a{
+    font-family: "Motiva Sans", sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.footer-a:hover{
+    color: #66c0f4;
+}
+.line-1{
+    width: 1000px;
+    height: 1px;
+    background-color: #c6d4df;
+    z-index: 1;
 }
