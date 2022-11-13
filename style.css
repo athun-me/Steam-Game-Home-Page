@@ -1070,7 +1070,7 @@ a:hover {
     color: white;
 }
 
-.container {}
+
 
 .block-2 {
     width: 1015px;
@@ -1094,10 +1094,11 @@ a:hover {
 .special-offer-tag {
     position: relative;
     top: -387px;
-    left: 24px;
+    left: 48px;
 }
 
 .brows-btn {
+    top: 22px;
     position: relative;
     left: 848px;
 
@@ -1132,7 +1133,7 @@ a:hover {
 
 .special-offer-div {
     position: relative;
-    top: 24px;
+    top: 48px;
     left: 25px;
     width: 122px;
     height: 25px;
@@ -1165,7 +1166,6 @@ a:hover {
     box-shadow: 0px 0px 9px 1px;
     width: 341px;
     height: 405px;
-   
 }
 .card-2:hover{
     box-shadow: 0px 0px 9px 5px;
@@ -1178,9 +1178,7 @@ a:hover {
    
     width: 341px;
     height: 300px;
-
 }
-
 .description {
     width: 341px;
     height: 105px;
@@ -1306,5 +1304,124 @@ a:hover {
     top: -34px;
     left: 16px;
 }
-/*alert box*/
 
+
+/*section -3*/
+.brows-and-catogory{
+    width: 273px;
+    height: 34px;
+    position: relative;
+    top: -46px;
+}
+
+
+/*--------------------------------------------------------------------*/
+
+.section-3-p{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+.secton-3{
+    width: 1068px;
+    height: 255px;
+    position: relative;
+    top: 414px;
+    left: 226px;
+}
+.section-3-div-1{
+    transition: 0.5s;
+    width: 255px;
+    position: absolute;
+    top: 0px;
+    height: 255px;
+}
+.section-3-div-1:hover{
+    transform: scale(1.1);
+}
+.section-3-img-1{
+    width: 255px;
+    height: 255px;
+}
+.x{
+    background:linear-gradient(rgba(0,0,0,0),rgb(139,0,0) 100%);
+    width: 255px;
+    position: absolute;
+    top: 0px;
+    height: 255px;
+}
+.img-text{
+    font-family: sans-serif;
+    position: relative;
+    top: -75px;
+    z-index: 3;
+    left: 59px;
+    font-weight: bold;
+    color: white;
+}
+
+/*--------------------------------------------------------------------*/
+
+.section-3-div-2{
+    left: 267px;
+    transition: 0.5s;
+    width: 255px;
+    position: absolute;
+    top: 0px;
+    height: 255px;
+}
+.section-3-div-2:hover{
+    transform: scale(1.1);
+}
+.x2{
+    background: linear-gradient(rgba(0,0,0,0), rgb(0,0,139)) 100%;
+    width: 255px;
+    position: absolute;
+    top: 0px;
+    height: 255px;
+}
+
+/*--------------------------------------------------------------------*/
+
+
+.section-3-div-3{
+    left: 534px;
+    transition: 0.5s;
+    width: 255px;
+    position: absolute;
+    top: 0px;
+    height: 255px;
+}
+.section-3-div-3:hover{
+    transform: scale(1.1);
+}
+.x3{
+    background: linear-gradient(rgba(0,0,0,0), rgb(184,134,11)) 100%;
+    width: 255px;
+    position: absolute;
+    top: 0px;
+    height: 255px;
+}
+
+
+/*--------------------------------------------------------------------*/
+
+.section-3-div-4{
+    left: 802px;
+    transition: 0.5s;
+    width: 255px;
+    position: absolute;
+    top: 0px;
+    height: 255px;
+}
+.section-3-div-4:hover{
+    transform: scale(1.1);
+}
+.x4{
+    background: linear-gradient(rgba(0,0,0,0), rgb(184,134,11)) 100%;
+    width: 255px;
+    position: absolute;
+    top: 0px;
+    height: 255px;
+}
