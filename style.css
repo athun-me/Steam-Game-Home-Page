@@ -1504,22 +1504,21 @@ a:hover {
     position: relative;
     top: 588px;
     left: 0px;
-    width: 1473px;
+    width: 1523px;
     height: 212px;
     background-color: black;
 }
 .footer-2{
     
     position: relative;
-    top: 587px;
-    left: 0px;
-    width: 1473px;
+    top: 579px;
+    width: 1523px;
     height: 185px;
     background-color: #181c24;
 }
 .footer-span{
     position: relative;
-    left: 574px;
+    left: 603px;
     top: 48px;
     font-family: "Motiva Sans", Sans-serif;
     font-weight: 300;
@@ -1570,8 +1569,77 @@ a:hover {
     color: #66c0f4;
 }
 .line-1{
-    width: 1000px;
-    height: 1px;
-    background-color: #c6d4df;
-    z-index: 1;
+
+    position: relative;
+    opacity: 33%;
+    top: 51px;
+    width: 1008px;
+    height: 62px;
+    border-left: none;
+    border-right: none;
+}
+.footer-logo{
+    position: relative;
+    top: -4px;
+    width: 98px;
+    left: 263px;
+}
+.footer-2-text{
+    width: 704px;
+    height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    letter-spacing: normal;
+    color: #8f98a0;
+    position: relative;
+    left: 364px;
+    top: -59px;
+
+    padding: 12px;
+    font-size: 12px;
+}
+.valv-link{
+    width: 993px;
+    height: 14px;
+   display: flex;
+    position: relative;
+    top: 16px;
+    left: -119px;
+    font-family: "Motiva Sans", sans-serif;
+    letter-spacing: normal;
+    text-align: start;
+    font-size: 13px;
+    line-height: normal;
+    color: #61686d;
+    padding: 8px;
+}
+
+.valv-link a{
+    font-family: "Motiva Sans", sans-serif;
+    letter-spacing: normal;
+    text-align: start;
+    font-size: 13px;
+    line-height: normal;
+    color: #c6d4df;
+    padding: 8px;
+    text-decoration: none;
+}
+.footer-{
+    position: relative;
+    top: -5px;
+}
+.footer-fb{
+    position: relative;
+    right: 139px;
+    top: 8px;
+}
+.footer-tw{
+    position: relative;
+    right: 87px;
+    top: 8px;
+}
+.footer-steam-logo{
+    position: relative;
+    left: 801px;
+    top: -65px;
 }
